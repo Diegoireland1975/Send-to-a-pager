@@ -61,9 +61,7 @@ btnSend.addEventListener("click", () => {
   // added a delay
   setTimeout(function () {
     pagerDisplay.innerText = phoneDisplay.innerText;
-    if ((phoneDisplay.innerText = pagerDisplay.innerText)) {
-      document.getElementById("pager-sound").play();
-    }
+    document.getElementById("pager-sound").play();
     phoneDisplay.innerText = "";
   }, 1000);
 });
