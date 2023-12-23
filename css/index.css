@@ -24,18 +24,22 @@ SEND BUTTON TEXT COLOR: #0B0B0B
   padding: 0;
   box-sizing: border-box;
 }
+
 html,
 body {
   font-family: "Press Start 2P";
 }
+
 a {
   text-decoration: none;
 }
+
 .container {
   width: 90%;
   max-width: 400px;
   margin: 0 auto;
 }
+
 .pager {
   padding: 1rem 0;
   border: 3px solid #283033;
@@ -44,37 +48,48 @@ a {
   max-width: 500px;
   margin: 0 auto;
 }
+
 h2 {
   font-size: 1rem;
   margin-bottom: 1rem;
 }
+
 .header-page {
   background: #283033;
   padding: 2rem 1rem 1rem;
   /* height: auto; */
 }
+
 .header-page h2 {
   color: #f8f8f8;
   text-align: center;
 }
+
 .pager-display {
   background: #9ec4b3;
   padding: 2.5rem 0;
   height: 20px;
 }
+
 .phone {
   padding: 1rem 0.5rem 0.5rem;
   margin-top: 3rem;
   height: auto;
   background: #d9d9d9;
 }
+
 .phone-display {
   background: #444;
   padding: 2.5rem 0;
   color: #fff;
   height: 20px;
+}
+
+.pager-display,
+.phone-display {
   overflow: hidden;
 }
+
 .numbers {
   display: flex;
   flex-wrap: wrap;
@@ -82,11 +97,13 @@ h2 {
   gap: 1rem;
   margin: 0.5rem 0;
 }
+
 .number {
   font-size: 1.5rem;
   background: #f8f8f8;
   padding: 0.5rem 2rem;
   cursor: pointer;
+  user-select: none;
 }
 
 button {
@@ -96,10 +113,12 @@ button {
   padding: 1rem 0;
   cursor: pointer;
 }
+
 .btn-reset {
   background: #be482a;
   color: #f8f8f8;
 }
+
 .btn-send {
   background: #3d9c7c;
   color: #0b0b0b;
